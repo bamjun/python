@@ -5,7 +5,6 @@ def solution(n, jinsu):
         a += str(b)
     return a[::-1]
 
-
 n = 125
 #십진수
 ss = 3
