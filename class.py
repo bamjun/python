@@ -28,3 +28,17 @@ print(sorted(student_o))
 [('john', 'A', 15), ('dave', 'B', 10), ('jane', 'C', 12)]
 [('dave', 'B', 10), ('jane', 'C', 12), ('john', 'A', 15)]
 [('dave', 'B', 10), ('jane', 'C', 12), ('john', 'A', 15)]
+
+
+
+#######################################################################################################################################
+#######################################################################################################################################
+def difference(l1, l2): return list(filter(lambda x: x not in l2, l1)) + list(filter(lambda x: x not in l1, l2))
+
+>>> def difference(l1, l2): return list(filter(lambda x: x not in l2, l1)) + list(filter(lambda x: x not in l1, l2))
+...
+>>> a = ['hello','world', 'foo']
+>>> b = ['hello','world','im','steve']
+>>> difference(a, b)
+['foo', 'im', 'steve']
+>>>
